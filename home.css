@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(191,228,245,1) 0%, rgba(180,183,228,1) 100%);
+}
+
+/* LOGO */
+#logo {
+    position: absolute;
+    background: linear-gradient(#ffe8c9, #ffcbcb);
+    width: 280px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+#logoText {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,81,81,1);
+}
+
+/* MENU */
+#menu {
+    position: absolute;
+    display: flex;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 2000px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Choose_a_game {
+    filter: drop-shadow(3px 5px 0px rgba(0, 0, 0, 0.161));
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 81px;
+    color: rgba(255,255,255,1);
+    margin: 50px;
+}
+
+#Image_cont {
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 70px;
+}
+
+#img1 {
+    position: relative;
+    width: 500px;
+    background-image: url(imgs/img1.jpg);
+    background-size: contain;
+    border-radius: 70px;
+}
+#img2 {
+    position: relative;
+    width: 500px;
+    background-image: url(imgs/img1.jpg);
+    background-size: contain;
+}
+#img3 {
+    position: relative;
+    width: 500px;
+    background-image: url(imgs/img1.jpg);
+    background-size: contain;
+    border-radius: 70px;
+}
+
+.line {
+    position: relative;
+    height: 100%;
+    width: 5px;
+    background-color: rgb(155, 202, 247);
+}
+
+.Category_Text_Box {
+    filter: drop-shadow(3px 7px 20px rgba(0, 0, 0, 0.059));
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 200px;
+    top: 400px;
+    background-color: white;
+    border-radius: 500px;
+    left: 7px;
+}
+
+#textCategory1 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    color: rgba(171,229,95,1);
+}
+
+#textCategory2 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    color: rgba(255,107,182,1);
+}
+
+#textCategory3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    color: rgb(107, 115, 235);
+}

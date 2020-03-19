@@ -7,7 +7,7 @@
     position: absolute;
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     background: linear-gradient(180deg, rgba(191,228,245,1) 0%, rgba(180,183,228,1) 100%);
 }
 

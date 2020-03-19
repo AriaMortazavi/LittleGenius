@@ -215,3 +215,12 @@
 #a1_img3 {
     background-image: url(imgs/a1_img1.jpg);
 }
+
+/* all hover states */
+#logo:hover{
+    cursor: pointer;
+}
+
+#Image_cont:hover{
+    cursor: pointer;
+}

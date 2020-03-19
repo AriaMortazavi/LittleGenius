@@ -126,3 +126,12 @@
     font-weight: bold;
     font-size: 62px;
 }
+
+/* all hover states */
+#logo:hover{
+    cursor: pointer;
+}
+
+#Image_cont:hover{
+    cursor: pointer;
+}

@@ -3,6 +3,8 @@ var index = 0;
 //these are arrays for the changing questions
 var silhouetteContent = [
     {
+        questionNum: "Question 1",
+
         question_spot: "This is where question 1 goes",
 
         q1_img1: "put a link to the image example 1 here",
@@ -15,6 +17,8 @@ var silhouetteContent = [
     },
 
     {
+        questionNum: "Question 2",
+
         question_spot: "This is where question 2 goes",
 
         q1_img1: "put a link to the image example 1 here",
@@ -30,7 +34,7 @@ var silhouetteContent = [
 //function for when the page initially loads
 function start(){
     // document.querySelector(".head").className="head" + paintings[0].pos
-    
+    document.querySelector("#questionNum").innerText = silhouetteContent[0].questionNum
     document.querySelector(".question_spot").innerText = silhouetteContent[0].question_spot
     document.querySelector("#q1_img1").innerText = silhouetteContent[0].q1_img1
     document.querySelector("#q1_img2").innerText = silhouetteContent[0].q1_img2
@@ -48,7 +52,7 @@ function nextsilhouetteQuestion(){
     }
     // document.querySelector(".head").className="head"+paintings[index].pos
 
-    document.querySelector(".question_spot").innerText = silhouetteContent[index].question_spot
+    document.querySelector("#questionNum").innerText = silhouetteContent[index].questionNum
     document.querySelector("#q1_img1").innerText = silhouetteContent[index].q1_img1
     document.querySelector("#q1_img2").innerText = silhouetteContent[index].q1_img2
     document.querySelector("#q1_img3").innerText = silhouetteContent[index].q1_img3

@@ -3,6 +3,8 @@ var index = 0;
 //these are arrays for the changing questions
 var shapesContent = [
     {
+        questionNum: "Question 1",
+
         question_spot: "This is where question 1 goes",
 
         q1_img1: "put a link to the image example 1 here",
@@ -15,6 +17,8 @@ var shapesContent = [
     },
 
     {
+        questionNum: "Question 2",
+
         question_spot: "This is where question 2 goes",
 
         q1_img1: "put a link to the image example 1 here",
@@ -30,7 +34,7 @@ var shapesContent = [
 //function for when the page initially loads
 function start(){
     // document.querySelector(".head").className="head" + paintings[0].pos
-    
+    document.querySelector("#questionNum").innerText = shapesContent[0].questionNum
     document.querySelector(".question_spot").innerText = shapesContent[0].question_spot
     document.querySelector("#q1_img1").innerText = shapesContent[0].q1_img1
     document.querySelector("#q1_img2").innerText = shapesContent[0].q1_img2
@@ -47,7 +51,7 @@ function nextshapeQuestion(){
         window.location.href = "completion.html";
     }
     // document.querySelector(".head").className="head"+paintings[index].pos
-
+    document.querySelector("#questionNum").innerText = shapesContent[index].questionNum
     document.querySelector(".question_spot").innerText = shapesContent[index].question_spot
     document.querySelector("#q1_img1").innerText = shapesContent[index].q1_img1
     document.querySelector("#q1_img2").innerText = shapesContent[index].q1_img2

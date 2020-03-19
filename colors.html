@@ -59,9 +59,9 @@
         <!-- QUESTION BOX -->
         <div id="questionBox">
             <div id="extention">
-                <h1>Question 1</h1>
+                <h1 id="questionNum">Question 1</h1>
             </div>
-            <h2>Question description</h2>
+            <h2 class="question_spot">Question description</h2>
             <div id="examples">
                 <div class="category_1_imgs" id="q1_img1"></div>
                 <div class="category_1_imgs" id="q1_img2"></div>
@@ -70,7 +70,7 @@
 
             <div class="borderLine"></div>
 
-            <div id="answers">
+            <div id="answers" onclick="nextColorQuestion()">
                 <div class="category_1_imgs" id="a1_img1"></div>
                 <div class="category_1_imgs" id="a1_img2"></div>
                 <div class="category_1_imgs" id="a1_img3"></div>
@@ -79,6 +79,7 @@
         <!-- QUESTION BOX -->
 
     </div>
+    <script src="colorsapp.js"></script>
 </body>
 
 </html>

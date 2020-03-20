@@ -3,16 +3,19 @@
     padding: 0;
 }
 
-#main {
+#main_completion {
     position: absolute;
     display: flex;
     width: 100vw;
     height: 150vh;
     background: linear-gradient(180deg, rgba(191,228,245,1) 0%, rgba(180,183,228,1) 100%);
+    /* DISPLAY STATE */
+    display: none;
+
 }
 
 /* LOGO */
-#logo {
+#completion_logo {
     position: absolute;
     background: linear-gradient(#ffe8c9, #ffcbcb);
     width: 280px;
@@ -21,7 +24,7 @@
     margin: 30px;
 }
 
-#logoText {
+#completion_logoText {
     display: flex;
     position: relative;
     justify-content: center;
@@ -34,7 +37,7 @@
 }
 
 /* MESSAGE */
-#questionBox {
+#completion_questionBox {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -49,7 +52,7 @@
 }
 
 /* HEADER */
-#questionBox > h1 {
+#completion_questionBox > h1 {
     background: -webkit-linear-gradient(0deg, rgb(95, 197, 238), rgb(165, 84, 241));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,7 +62,7 @@
 }
 
 /* PARAGRAPH */
-#questionBox h2 {
+#completion_questionBox h2 {
     position: relative;
     color: rgb(65, 202, 243);
     margin: 70px;
@@ -67,7 +70,7 @@
     left: 0;
 }
 
-.borderLine {
+.completion_borderLine {
     width: 90%;
     border-bottom: 3px dashed rgb(230, 230, 230);
     margin: 50px;
@@ -75,7 +78,7 @@
 }
 
 /* RETURN TO THE HOMEPAGE BUTTON */
-#return {
+#completion_return {
     position: relative;
     display: flex;
     margin-top: 50px;
@@ -87,12 +90,12 @@
     align-items: center;
 }
 
-#return h1 {
+#completion_return h1 {
     color: rgb(230, 68, 116);
     font-size: 34pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#return:hover{
+#completion_return:hover{
     cursor: pointer;
 }

@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#main {
+#main_home {
     position: absolute;
     display: flex;
     width: 100vw;
@@ -12,7 +12,7 @@
 }
 
 /* LOGO */
-#logo {
+#main_logo {
     position: absolute;
     background: linear-gradient(#ffe8c9, #ffcbcb);
     width: 280px;
@@ -21,7 +21,7 @@
     margin: 30px;
 }
 
-#logoText {
+#main_logoText {
     display: flex;
     position: relative;
     justify-content: center;
@@ -34,7 +34,7 @@
 }
 
 /* MENU */
-#menu {
+#main_menu {
     position: absolute;
     display: flex;
     transform: translateX(-50%);
@@ -46,7 +46,7 @@
     flex-direction: column;
 }
 
-#Choose_a_game {
+#main_Choose_a_game {
     filter: drop-shadow(3px 5px 0px rgba(0, 0, 0, 0.161));
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +57,7 @@
     margin: 50px;
 }
 
-#Image_cont {
+#main_Image_cont {
     position: relative;
     display: flex;
     width: 1500px;
@@ -66,33 +66,33 @@
     border-radius: 70px;
 }
 
-#img1 {
+#main_img1 {
     background-image: url(imgs/img1.jpg);
     border-radius: 70px 0px 0px 70px;
 }
-#img2 {
+#main_img2 {
     background-image: url(imgs/img2.jpg);
 }
-#img3 {
+#main_img3 {
     background-image: url(imgs/img3.jpg);
     border-radius: 0px 70px 70px 0px;
 }
 
-#img1, #img2, #img3 {
+#main_img1, #main_img2, #main_img3 {
     position: relative;
     width: 500px;
     background-size: contain;
 }
 
 
-.line {
+.main_line {
     position: relative;
     height: 100%;
     width: 5px;
     background-color: rgb(155, 202, 247);
 }
 
-.Category_Text_Box {
+.main_Category_Text_Box {
     filter: drop-shadow(3px 7px 20px rgba(0, 0, 0, 0.059));
     display: flex;
     position: absolute;
@@ -107,19 +107,19 @@
     left: 8px;
 }
 
-#textCategory1 {
+#main_textCategory1 {
     color: rgba(171,229,95,1);
 }
 
-#textCategory2 {
+#main_textCategory2 {
     color: rgba(255,107,182,1);
 }
 
-#textCategory3 {
+#main_textCategory3 {
     color: rgb(107, 115, 235);
 }
 
-#textCategory1, #textCategory2, #textCategory3 {
+#main_textCategory1, #main_textCategory2, #main_textCategory3 {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -128,10 +128,10 @@
 }
 
 /* all hover states */
-#logo:hover{
+#main_logo:hover{
     cursor: pointer;
 }
 
-#Image_cont:hover{
+#main_Image_cont:hover{
     cursor: pointer;
 }

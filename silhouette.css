@@ -3,16 +3,19 @@
     padding: 0;
 }
 
-#main {
+#main_silhouette {
     position: absolute;
     display: flex;
     width: 100vw;
     height: 150vh;
     background: linear-gradient(180deg, rgba(191,228,245,1) 0%, rgba(180,183,228,1) 100%);
+    /* DISPLAY STATE */
+    display: none;
+
 }
 
 /* LOGO */
-#logo {
+#silhouette_logo {
     position: absolute;
     background: linear-gradient(#ffe8c9, #ffcbcb);
     width: 280px;
@@ -21,7 +24,7 @@
     margin: 30px;
 }
 
-#logoText {
+#silhouette_logoText {
     display: flex;
     position: relative;
     justify-content: center;
@@ -34,7 +37,7 @@
 }
 
 /* MENU */
-#menu {
+#silhouette_menu {
     position: absolute;
     display: flex;
     transform: translateX(-50%);
@@ -47,7 +50,7 @@
     top: 100;
 }
 
-#Image_cont {
+#silhouette_Image_cont {
     position: relative;
     display: flex;
     width: 800px;
@@ -56,19 +59,19 @@
     border-radius: 70px;
 }
 
-#img1 {
+#silhouette_img1 {
     background-image: url(imgs/img1.jpg);
     border-radius: 70px 0px 0px 70px;
 }
-#img2 {
+#silhouette_img2 {
     background-image: url(imgs/img2.jpg);
 }
-#img3 {
+#silhouette_img3 {
     background-image: url(imgs/img3.jpg);
     border-radius: 0px 70px 70px 0px;
 }
 
-#img1, #img2, #img3 {
+#silhouette_img1, #silhouette_img2, #silhouette_img3 {
     position: relative;
     width: 500px;
     background-size: cover;
@@ -76,14 +79,14 @@
     background-position: center;
 }
 
-.line {
+.silhouette_line {
     position: relative;
     height: 100%;
     width: 5px;
     background-color: rgb(155, 202, 247);
 }
 
-.Category_Text_Box {
+.silhouette_Category_Text_Box {
     filter: drop-shadow(3px 7px 20px rgba(0, 0, 0, 0.059));
     display: flex;
     position: absolute;
@@ -98,24 +101,24 @@
     left: 12px;
 }
 
-#box3 {
+#silhouette_box3 {
     border: rgb(134, 211, 255) 3px solid;
     filter: drop-shadow(0px 0px 10px rgba(188, 226, 252, 0.87));
 }
 
-#textCategory1 {
+#silhouette_textCategory1 {
     color: rgba(171,229,95,1);
 }
 
-#textCategory2 {
+#silhouette_textCategory2 {
     color: rgba(255,107,182,1);
 }
 
-#textCategory3 {
+#silhouette_textCategory3 {
     color: rgb(107, 115, 235);
 }
 
-#textCategory1, #textCategory2, #textCategory3 {
+#silhouette_textCategory1, #silhouette_textCategory2, #silhouette_textCategory3 {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -124,7 +127,7 @@
 }
 
 /* QUESTION */
-#questionBox {
+#silhouette_questionBox {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -138,7 +141,7 @@
     align-items: center;
 }
 
-#extention {
+#silhouette_extention {
     display: flex;
     position: relative;
     text-align: center;
@@ -152,13 +155,13 @@
     left: 12px;
 }
 
-#questionBox h1 {
+#silhouette_questionBox h1 {
     color: rgb(124, 196, 10);
     padding: 20px;
     font-size: 28pt;
 }
 
-#questionBox h2 {
+#silhouette_questionBox h2 {
     position: absolute;
     color: rgb(65, 202, 243);
     margin: 70px;
@@ -167,7 +170,7 @@
 }
 
 /* QUESTION 1 EXAMPLE IMAGES */
-.category_1_imgs {
+.silhouette_category_1_imgs {
     position: relative;
     width: 300px;
     height: 200px;
@@ -177,50 +180,50 @@
     border-radius: 30px;
 }
 
-#examples {
+#silhouette_examples {
     display: flex;
     margin-top: 150px;
 }
 
-#q1_img1 {
+#silhouette_q1_img1 {
     background-image: url(imgs/q1_img1.jpg);
 }
 
-#q1_img2 {
+#silhouette_q1_img2 {
     background-image: url(imgs/q1_img1.jpg);
 }
 
-#q1_img3 {
+#silhouette_q1_img3 {
     background-image: url(imgs/q1_img1.jpg);
 }
 
-.borderLine {
+.silhouette_borderLine {
     width: 90%;
     border-bottom: 3px dashed rgb(230, 230, 230);
     margin: 50px;
 }
 
-#answers {
+#silhouette_answers {
     display: flex;
 }
 
-#a1_img1 {
+#silhouette_a1_img1 {
     background-image: url(imgs/a1_img1.jpg);
 }
 
-#a1_img2 {
+#silhouette_a1_img2 {
     background-image: url(imgs/a1_img1.jpg);
 }
 
-#a1_img3 {
+#silhouette_a1_img3 {
     background-image: url(imgs/a1_img1.jpg);
 }
 
 /* all hover states */
-#logo:hover{
+#silhouette_logo:hover{
     cursor: pointer;
 }
 
-#Image_cont:hover{
+#silhouette_Image_cont:hover{
     cursor: pointer;
 }

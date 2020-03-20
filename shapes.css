@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main_shapes {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 150vh;
+    background: linear-gradient(180deg, rgba(191,228,245,1) 0%, rgba(180,183,228,1) 100%);
+    /* DISPLAY STATE */
+    display: none;
+}
+
+/* LOGO */
+#shapes_logo {
+    position: absolute;
+    background: linear-gradient(#ffe8c9, #ffcbcb);
+    width: 280px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+#shapes_logoText {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,81,81,1);
+}
+
+/* MENU */
+#shapes_menu {
+    position: absolute;
+    display: flex;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 1000px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 100;
+}
+
+#shapes_Image_cont {
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+    border-radius: 70px;
+}
+
+#shapes_img1 {
+    background-image: url(imgs/img1.jpg);
+    border-radius: 70px 0px 0px 70px;
+}
+#shapes_img2 {
+    background-image: url(imgs/img2.jpg);
+}
+#shapes_img3 {
+    background-image: url(imgs/img3.jpg);
+    border-radius: 0px 70px 70px 0px;
+}
+
+#shapes_img1, #shapes_img2, #shapes_img3 {
+    position: relative;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.shapes_line {
+    position: relative;
+    height: 100%;
+    width: 5px;
+    background-color: rgb(155, 202, 247);
+}
+
+.shapes_Category_Text_Box {
+    filter: drop-shadow(3px 7px 20px rgba(0, 0, 0, 0.059));
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+    top: 80px;
+    background-color: white;
+    border-radius: 500px;
+    left: 12px;
+}
+
+#shapes_box2 {
+    border: rgb(255, 134, 170) 3px solid;
+    filter: drop-shadow(0px 0px 10px rgba(252, 188, 241, 0.87));
+}
+
+#shapes_textCategory1 {
+    color: rgba(171,229,95,1);
+}
+
+#shapes_textCategory2 {
+    color: rgba(255,107,182,1);
+}
+
+#shapes_textCategory3 {
+    color: rgb(107, 115, 235);
+}
+
+#shapes_textCategory1, #shapes_textCategory2, #shapes_textCategory3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* QUESTION */
+#shapes_questionBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 800px;
+    background-color: white;
+    border-radius: 30px;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 300px;
+    align-items: center;
+}
+
+#shapes_extention {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    top: -30px;
+    background-color: white;
+    border-radius: 500px;
+    left: 12px;
+}
+
+#shapes_questionBox h1 {
+    color: rgb(67, 153, 233);
+    padding: 20px;
+    font-size: 28pt;
+}
+
+#shapes_questionBox h2 {
+    position: absolute;
+    color: rgb(235, 99, 81);
+    margin: 70px;
+    font-size: 24pt;
+    left: 0;
+}
+
+/* QUESTION 1 EXAMPLE IMAGES */
+.shapes_category_1_imgs {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 50px;
+    border-radius: 30px;
+}
+
+#shapes_examples {
+    display: flex;
+    margin-top: 150px;
+}
+
+#shapes_q1_img1 {
+    background-image: url(imgs/q1_img1.jpg);
+}
+
+#shapes_q1_img2 {
+    background-image: url(imgs/q1_img1.jpg);
+}
+
+#shapes_q1_img3 {
+    background-image: url(imgs/q1_img1.jpg);
+}
+
+.shapes_borderLine {
+    width: 90%;
+    border-bottom: 3px dashed rgb(230, 230, 230);
+    margin: 50px;
+}
+
+#shapes_answers {
+    display: flex;
+}
+
+#shapes_a1_img1 {
+    background-image: url(imgs/a1_img1.jpg);
+}
+
+#shapes_a1_img2 {
+    background-image: url(imgs/a1_img1.jpg);
+}
+
+#shapes_a1_img3 {
+    background-image: url(imgs/a1_img1.jpg);
+}
+
+/* all hover states */
+#shapes_logo:hover{
+    cursor: pointer;
+}
+
+#shapes_Image_cont:hover{
+    cursor: pointer;
+}

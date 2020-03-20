@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>LittleGenius</title>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="colors.css">
+	<link rel="stylesheet" href="shapes.css">
+	<link rel="stylesheet" href="silhouette.css">
+	<link rel="stylesheet" href="completion.css">
+</head>
+
+<body>
+
+	<!-- -- -- -- -->
+	<!-- HOMEPAGE -->
+	<!-- -- -- -- -->
+	<div id="main_home">
+
+		<!-- LOGO -->
+		<div id="main_logo" onClick="location.href='index.html'">
+			<div id="main_logoText">
+				<span>LittleGenius</span>
+			</div>
+		</div>
+		<!-- LOGO -->
+
+		<!-- CATEGORY SELECTION -->
+		<div id="main_menu">
+			<div id="main_Choose_a_game">
+				<span>Choose a game!</span>
+			</div>
+
+			<div id="main_Image_cont">
+
+				<!-- IMAGES -->
+				<div id="main_img1" onClick="location.href='colors.html'">
+					<div class="main_Category_Text_Box">
+						<div id="main_textCategory1">
+							<span>Add the colors</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="main_line"></div>
+
+				<div id="main_img2" onClick="location.href='shapes.html'">
+					<div class="main_Category_Text_Box">
+						<div id="main_textCategory2">
+							<span>Shape finder</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="main_line"></div>
+
+				<div id="main_img3" onClick="location.href='silhouette.html'">
+					<div class="main_Category_Text_Box">
+						<div id="main_textCategory3">
+							<span>Whos that silhouette</span>
+						</div>
+					</div>
+				</div>
+				<!-- IMAGES -->
+
+			</div>
+		</div>
+		<!-- CATEGORY SELECTION -->
+
+	</div>
+
+	<!-- --  -- -->
+	<!-- COLORS -->
+	<!-- --  -- -->
+	<div id="main_colors">
+
+		<!-- LOGO -->
+		<div id="colors_logo" onClick="location.href='index.html'">
+			<div id="colors_logoText">
+				<span>LittleGenius</span>
+			</div>
+		</div>
+		<!-- LOGO -->
+
+		<!-- CATEGORY SELECTION -->
+		<div id="colors_menu">
+
+			<div id="colors_Image_cont">
+
+				<!-- IMAGES -->
+				<div id="colors_img1" onClick="location.href='colors.html'">
+					<div class="colors_Category_Text_Box" id="colors_box1">
+						<div id="colors_textCategory1">
+							<span>Add the colors</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="colors_line"></div>
+
+				<div id="colors_img2" onClick="location.href='shapes.html'">
+					<div class="colors_Category_Text_Box" id="colors_box2">
+						<div id="colors_textCategory2">
+							<span>Shape finder</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="colors_line"></div>
+
+				<div id="colors_img3" onClick="location.href='silhouette.html'">
+					<div class="colors_Category_Text_Box" id="colors_box3">
+						<div id="colors_textCategory3">
+							<span>Whos that silhouette</span>
+						</div>
+					</div>
+				</div>
+				<!-- IMAGES -->
+
+			</div>
+		</div>
+		<!-- CATEGORY SELECTION -->
+
+		<!-- QUESTION BOX -->
+		<div id="colors_questionBox">
+			<div id="colors_extention">
+				<h1 id="colors_questionNum">Question 1</h1>
+			</div>
+			<h2 class="colors_question_spot">Question description</h2>
+			<div id="colors_examples">
+				<div class="colors_category_1_imgs" id="colors_q1_img1"></div>
+				<div class="colors_category_1_imgs" id="colors_q1_img2"></div>
+				<div class="colors_category_1_imgs" id="colors_q1_img3"></div>
+			</div>
+
+			<div class="colors_borderLine"></div>
+
+			<div id="colors_answers">
+				<div class="colors_category_1_imgs" id="colors_a1_img1" onclick="nextColorQuestion(1)"></div>
+				<div class="colors_category_1_imgs" id="colors_a1_img2" onclick="nextColorQuestion(2)"></div>
+				<div class="colors_category_1_imgs" id="colors_a1_img3" onclick="nextColorQuestion(3)"></div>
+			</div>
+		</div>
+		<!-- QUESTION BOX -->
+
+	</div>
+	<script src="colorsapp.js"></script>
+
+	<!-- --  -- -->
+	<!-- SHAPES -->
+	<!-- --  -- -->
+	<div id="main_shapes">
+
+        <!-- LOGO -->
+        <div id="shapes_logo" onClick="location.href='index.html'">
+            <div id="shapes_logoText">
+                <span>LittleGenius</span>
+            </div>
+        </div>
+        <!-- LOGO -->
+
+        <!-- CATEGORY SELECTION -->
+        <div id="shapes_menu">
+
+            <div id="shapes_Image_cont">
+
+                <!-- IMAGES -->
+                <div id="shapes_img1" onClick="location.href='colors.html'">
+                    <div class="shapes_Category_Text_Box" id="shapes_box1">
+                        <div id="shapes_textCategory1">
+                            <span>Add the colors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shapes_line"></div>
+
+                <div id="shapes_img2" onClick="location.href='shapes.html'">
+                    <div class="shapes_Category_Text_Box" id="shapes_box2">
+                        <div id="shapes_textCategory2">
+                            <span>Shape finder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shapes_line"></div>
+
+                <div id="shapes_img3" onClick="location.href='silhouette.html'">
+                    <div class="shapes_Category_Text_Box" id="shapes_box3">
+                        <div id="shapes_textCategory3">
+                            <span>Whos that silhouette</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+
+            </div>
+        </div>
+        <!-- CATEGORY SELECTION -->
+
+        <!-- QUESTION BOX -->
+        <div id="shapes_questionBox">
+            <div id="shapes_extention">
+                <h1 id="shapes_questionNum">Question 1</h1>
+            </div>
+            <h2 class="shapes_question_spot">Question description</h2>
+            <div id="shapes_examples">
+                <div class="shapes_category_1_imgs" id="shapes_q1_img1"></div>
+                <div class="shapes_category_1_imgs" id="shapes_q1_img2"></div>
+                <div class="shapes_category_1_imgs" id="shapes_q1_img3"></div>
+            </div>
+
+            <div class="shapes_borderLine"></div>
+
+            <div id="shapes_answers">
+                <div class="shapes_category_1_imgs" id="shapes_a1_img1" onclick="nextshapeQuestion(1)"></div>
+                <div class="shapes_category_1_imgs" id="shapes_a1_img2" onclick="nextshapeQuestion(2)"></div>
+                <div class="shapes_category_1_imgs" id="shapes_a1_img3" onclick="nextshapeQuestion(3)"></div>
+            </div>
+        </div>
+        <!-- QUESTION BOX -->
+
+    </div>
+    <script src="shapesapp.js"></script>
+
+
+	<!-- -- ---- -- -->
+	<!-- SILHOUETTE -->
+	<!-- -- ---- -- -->
+	<div id="main_silhouette">
+
+        <!-- LOGO -->
+        <div id="silhouette_logo" onClick="location.href='index.html'">
+            <div id="silhouette_logoText">
+                <span>LittleGenius</span>
+            </div>
+        </div>
+        <!-- LOGO -->
+
+        <!-- CATEGORY SELECTION -->
+        <div id="silhouette_menu">
+
+            <div id="silhouette_Image_cont">
+
+                <!-- IMAGES -->
+                <div id="silhouette_img1" onClick="location.href='colors.html'">
+                    <div class="silhouette_Category_Text_Box" id="silhouette_box1">
+                        <div id="silhouette_textCategory1">
+                            <span>Add the colors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="silhouette_line"></div>
+
+                <div id="silhouette_img2" onClick="location.href='shapes.html'">
+                    <div class="silhouette_Category_Text_Box" id="silhouette_box2">
+                        <div id="silhouette_textCategory2">
+                            <span>Shape finder</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="silhouette_line"></div>
+
+                <div id="silhouette_img3" onClick="location.href='silhouette.html'">
+                    <div class="silhouette_Category_Text_Box" id="silhouette_box3">
+                        <div id="silhouette_textCategory3">
+                            <span>Whos that silhouette</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+
+            </div>
+        </div>
+        <!-- CATEGORY SELECTION -->
+
+        <!-- QUESTION BOX -->
+        <div id="silhouette_questionBox">
+            <div id="silhouette_extention">
+                <h1 id="silhouette_questionNum">Question 1</h1>
+            </div>
+            <h2 class="silhouette_question_spot">Question description</h2>
+            <div id="silhouette_examples">
+                <div class="silhouette_category_1_imgs" id="silhouette_q1_img1"></div>
+                <div class="silhouette_category_1_imgs" id="silhouette_q1_img2"></div>
+                <div class="silhouette_category_1_imgs" id="silhouette_q1_img3"></div>
+            </div>
+
+            <div class="silhouette_borderLine"></div>
+
+            <div id="silhouette_answers">
+                <div class="silhouette_category_1_imgs" id="silhouette_a1_img1" onclick="nextsilhouetteQuestion(1)"></div>
+                <div class="silhouette_category_1_imgs" id="silhouette_a1_img2" onclick="nextsilhouetteQuestion(2)"></div>
+                <div class="silhouette_category_1_imgs" id="silhouette_a1_img3" onclick="nextsilhouetteQuestion(3)"></div>
+            </div>
+        </div>
+        <!-- QUESTION BOX -->
+
+    </div>
+    <script src="silhouetteapp.js"></script>
+
+
+	<!-- -- ---- -- -->
+	<!-- COMPLETION -->
+	<!-- -- ---- -- -->
+	<div id="main_completion">
+
+        <!-- LOGO -->
+        <div id="completion_logo" onClick="location.href='index.html'">
+            <div id="completion_logoText">
+                <span>LittleGenius</span>
+            </div>
+        </div>
+        <!-- LOGO -->
+
+        <!-- QUESTION BOX -->
+        <div id="completion_questionBox">
+            <h1>GOOD JOB!</h1>
+            <h2>Kind words to our little winners</h2>
+
+            <div class="completion_borderLine"></div>
+
+            <div id="completion_return" onClick="location.href='index.html'">
+                <h1>Play another game!</h1>
+            </div>
+        </div>
+        <!-- QUESTION BOX -->
+
+	</div>
+	<script src="confetti.js"></script>
+</body>
+
+</html>

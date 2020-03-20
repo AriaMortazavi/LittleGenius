@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main_home {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 150vh;
+    background: linear-gradient(180deg, rgba(191,228,245,1) 0%, rgba(180,183,228,1) 100%);
+}
+
+/* LOGO */
+#main_logo {
+    position: absolute;
+    background: linear-gradient(#ffe8c9, #ffcbcb);
+    width: 280px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+#main_logoText {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,81,81,1);
+}
+
+/* MENU */
+#main_menu {
+    position: absolute;
+    display: flex;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 2000px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main_Choose_a_game {
+    filter: drop-shadow(3px 5px 0px rgba(0, 0, 0, 0.161));
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 81px;
+    color: rgba(255,255,255,1);
+    margin: 50px;
+}
+
+#main_Image_cont {
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 70px;
+}
+
+#main_img1 {
+    background-image: url(imgs/img1.jpg);
+    border-radius: 70px 0px 0px 70px;
+}
+#main_img2 {
+    background-image: url(imgs/img2.jpg);
+}
+#main_img3 {
+    background-image: url(imgs/img3.jpg);
+    border-radius: 0px 70px 70px 0px;
+}
+
+#main_img1, #main_img2, #main_img3 {
+    position: relative;
+    width: 500px;
+    background-size: contain;
+}
+
+
+.main_line {
+    position: relative;
+    height: 100%;
+    width: 5px;
+    background-color: rgb(155, 202, 247);
+}
+
+.main_Category_Text_Box {
+    filter: drop-shadow(3px 7px 20px rgba(0, 0, 0, 0.059));
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 200px;
+    top: 400px;
+    background-color: white;
+    border-radius: 500px;
+    left: 8px;
+}
+
+#main_textCategory1 {
+    color: rgba(171,229,95,1);
+}
+
+#main_textCategory2 {
+    color: rgba(255,107,182,1);
+}
+
+#main_textCategory3 {
+    color: rgb(107, 115, 235);
+}
+
+#main_textCategory1, #main_textCategory2, #main_textCategory3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+}
+
+/* all hover states */
+#main_logo:hover{
+    cursor: pointer;
+}
+
+#main_Image_cont:hover{
+    cursor: pointer;
+}

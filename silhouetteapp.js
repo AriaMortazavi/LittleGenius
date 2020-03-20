@@ -36,14 +36,14 @@ var silhouetteContent = [
 //function for when the page initially loads
 function start(){
     // document.querySelector(".head").className="head" + paintings[0].pos
-    document.querySelector("#questionNum").innerText = silhouetteContent[0].questionNum
-    document.querySelector(".question_spot").innerText = silhouetteContent[0].question_spot
-    document.querySelector("#q1_img1").innerText = silhouetteContent[0].q1_img1
-    document.querySelector("#q1_img2").innerText = silhouetteContent[0].q1_img2
-    document.querySelector("#q1_img3").innerText = silhouetteContent[0].q1_img3
-    document.querySelector("#a1_img1").innerText = silhouetteContent[0].a1_img1
-    document.querySelector("#a1_img2").innerText = silhouetteContent[0].a1_img2
-    document.querySelector("#a1_img3").innerText = silhouetteContent[0].a1_img3
+    document.querySelector("#silhouette_questionNum").innerText = silhouetteContent[0].questionNum
+    document.querySelector(".silhouette_question_spot").innerText = silhouetteContent[0].question_spot
+    document.querySelector("#silhouette_q1_img1").innerText = silhouetteContent[0].q1_img1
+    document.querySelector("#silhouette_q1_img2").innerText = silhouetteContent[0].q1_img2
+    document.querySelector("#silhouette_q1_img3").innerText = silhouetteContent[0].q1_img3
+    document.querySelector("#silhouette_a1_img1").innerText = silhouetteContent[0].a1_img1
+    document.querySelector("#silhouette_a1_img2").innerText = silhouetteContent[0].a1_img2
+    document.querySelector("#silhouette_a1_img3").innerText = silhouetteContent[0].a1_img3
 }
 start();
 
@@ -55,12 +55,12 @@ function nextsilhouetteQuestion(number){
     }
     // document.querySelector(".head").className="head"+paintings[index].pos
 
-    document.querySelector("#questionNum").innerText = silhouetteContent[index].questionNum
-    document.querySelector("#q1_img1").innerText = silhouetteContent[index].q1_img1
-    document.querySelector("#q1_img2").innerText = silhouetteContent[index].q1_img2
-    document.querySelector("#q1_img3").innerText = silhouetteContent[index].q1_img3
-    document.querySelector("#a1_img1").innerText = silhouetteContent[index].a1_img1
-    document.querySelector("#a1_img2").innerText = silhouetteContent[index].a1_img2
-    document.querySelector("#a1_img3").innerText = silhouetteContent[index].a1_img3
+    document.querySelector("#silhouette_questionNum").innerText = silhouetteContent[index].questionNum
+    document.querySelector("#silhouette_q1_img1").innerText = silhouetteContent[index].q1_img1
+    document.querySelector("#silhouette_q1_img2").innerText = silhouetteContent[index].q1_img2
+    document.querySelector("#silhouette_q1_img3").innerText = silhouetteContent[index].q1_img3
+    document.querySelector("#silhouette_a1_img1").innerText = silhouetteContent[index].a1_img1
+    document.querySelector("#silhouette_a1_img2").innerText = silhouetteContent[index].a1_img2
+    document.querySelector("#silhouette_a1_img3").innerText = silhouetteContent[index].a1_img3
 }
 }

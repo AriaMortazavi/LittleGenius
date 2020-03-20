@@ -36,14 +36,14 @@ var colorsContent = [
 //function for when the page initially loads
 function start(){
     // document.querySelector(".head").className="head" + paintings[0].pos
-    document.querySelector("#questionNum").innerText = colorsContent[0].questionNum
-    document.querySelector(".question_spot").innerText = colorsContent[0].question_spot
-    document.querySelector("#q1_img1").innerText = colorsContent[0].q1_img1
-    document.querySelector("#q1_img2").innerText = colorsContent[0].q1_img2
-    document.querySelector("#q1_img3").innerText = colorsContent[0].q1_img3
-    document.querySelector("#a1_img1").innerText = colorsContent[0].a1_img1
-    document.querySelector("#a1_img2").innerText = colorsContent[0].a1_img2
-    document.querySelector("#a1_img3").innerText = colorsContent[0].a1_img3
+    document.querySelector("#colors_questionNum").innerText = colorsContent[0].questionNum
+    document.querySelector(".colors_question_spot").innerText = colorsContent[0].question_spot
+    document.querySelector("#colors_q1_img1").innerText = colorsContent[0].q1_img1
+    document.querySelector("#colors_q1_img2").innerText = colorsContent[0].q1_img2
+    document.querySelector("#colors_q1_img3").innerText = colorsContent[0].q1_img3
+    document.querySelector("#colors_a1_img1").innerText = colorsContent[0].a1_img1
+    document.querySelector("#colors_a1_img2").innerText = colorsContent[0].a1_img2
+    document.querySelector("#colors_a1_img3").innerText = colorsContent[0].a1_img3
 }
 start();
 
@@ -53,13 +53,13 @@ function nextColorQuestion(number){
     if (index >= colorsContent.length){
         window.location.href = "completion.html";
     }
-    document.querySelector("#questionNum").innerText = colorsContent[index].questionNum
-    document.querySelector(".question_spot").innerText = colorsContent[index].question_spot
-    document.querySelector("#q1_img1").innerText = colorsContent[index].q1_img1
-    document.querySelector("#q1_img2").innerText = colorsContent[index].q1_img2
-    document.querySelector("#q1_img3").innerText = colorsContent[index].q1_img3
-    document.querySelector("#a1_img1").innerText = colorsContent[index].a1_img1
-    document.querySelector("#a1_img2").innerText = colorsContent[index].a1_img2
-    document.querySelector("#a1_img3").innerText = colorsContent[index].a1_img3
+    document.querySelector("#colors_questionNum").innerText = colorsContent[index].questionNum
+    document.querySelector(".colors_question_spot").innerText = colorsContent[index].question_spot
+    document.querySelector("#colors_q1_img1").innerText = colorsContent[index].q1_img1
+    document.querySelector("#colors_q1_img2").innerText = colorsContent[index].q1_img2
+    document.querySelector("#colors_q1_img3").innerText = colorsContent[index].q1_img3
+    document.querySelector("#colors_a1_img1").innerText = colorsContent[index].a1_img1
+    document.querySelector("#colors_a1_img2").innerText = colorsContent[index].a1_img2
+    document.querySelector("#colors_a1_img3").innerText = colorsContent[index].a1_img3
     }
 }

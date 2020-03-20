@@ -36,14 +36,14 @@ var shapesContent = [
 //function for when the page initially loads
 function start(){
 
-    document.querySelector("#questionNum").innerText = shapesContent[0].questionNum
-    document.querySelector(".question_spot").innerText = shapesContent[0].question_spot
-    document.querySelector("#q1_img1").innerText = shapesContent[0].q1_img1
-    document.querySelector("#q1_img2").innerText = shapesContent[0].q1_img2
-    document.querySelector("#q1_img3").innerText = shapesContent[0].q1_img3
-    document.querySelector("#a1_img1").innerText = shapesContent[0].a1_img1
-    document.querySelector("#a1_img2").innerText = shapesContent[0].a1_img2
-    document.querySelector("#a1_img3").innerText = shapesContent[0].a1_img3
+    document.querySelector("#shapes_questionNum").innerText = shapesContent[0].questionNum
+    document.querySelector(".shapes_question_spot").innerText = shapesContent[0].question_spot
+    document.querySelector("#shapes_q1_img1").innerText = shapesContent[0].q1_img1
+    document.querySelector("#shapes_q1_img2").innerText = shapesContent[0].q1_img2
+    document.querySelector("#shapes_q1_img3").innerText = shapesContent[0].q1_img3
+    document.querySelector("#shapes_a1_img1").innerText = shapesContent[0].a1_img1
+    document.querySelector("#shapes_a1_img2").innerText = shapesContent[0].a1_img2
+    document.querySelector("#shapes_a1_img3").innerText = shapesContent[0].a1_img3
 }
 start();
 
@@ -54,13 +54,13 @@ function nextshapeQuestion(number){
         window.location.href = "completion.html";
     }
 
-    document.querySelector("#questionNum").innerText = shapesContent[index].questionNum
-    document.querySelector(".question_spot").innerText = shapesContent[index].question_spot
-    document.querySelector("#q1_img1").innerText = shapesContent[index].q1_img1
-    document.querySelector("#q1_img2").innerText = shapesContent[index].q1_img2
-    document.querySelector("#q1_img3").innerText = shapesContent[index].q1_img3
-    document.querySelector("#a1_img1").innerText = shapesContent[index].a1_img1
-    document.querySelector("#a1_img2").innerText = shapesContent[index].a1_img2
-    document.querySelector("#a1_img3").innerText = shapesContent[index].a1_img3
+    document.querySelector("#shapes_questionNum").innerText = shapesContent[index].questionNum
+    document.querySelector(".shapes_question_spot").innerText = shapesContent[index].question_spot
+    document.querySelector("#shapes_q1_img1").innerText = shapesContent[index].q1_img1
+    document.querySelector("#shapes_q1_img2").innerText = shapesContent[index].q1_img2
+    document.querySelector("#shapes_q1_img3").innerText = shapesContent[index].q1_img3
+    document.querySelector("#shapes_a1_img1").innerText = shapesContent[index].a1_img1
+    document.querySelector("#shapes_a1_img2").innerText = shapesContent[index].a1_img2
+    document.querySelector("#shapes_a1_img3").innerText = shapesContent[index].a1_img3
 }
 }

@@ -51,7 +51,8 @@ function nextColorQuestion(number){
     if(number === colorsContent[index].answer){
     index ++;
     if (index >= colorsContent.length){
-        document.querySelector("#main_completion").style.display = "flex"
+        document.querySelector("#main_completion").style.display = "flex",
+        Confetti()
     }
     document.querySelector("#colors_questionNum").innerText = colorsContent[index].questionNum
     document.querySelector(".colors_question_spot").innerText = colorsContent[index].question_spot

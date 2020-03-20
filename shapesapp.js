@@ -51,7 +51,8 @@ function nextshapeQuestion(number){
     if(number === shapesContent[index].answer){
     index ++;
     if (index >= shapesContent.length){
-        document.querySelector("#main_completion").style.display = "flex"
+        document.querySelector("#main_completion").style.display = "flex",
+        Confetti()
     }
 
     document.querySelector("#shapes_questionNum").innerText = shapesContent[index].questionNum

@@ -51,7 +51,8 @@ function nextsilhouetteQuestion(number){
     if(number === silhouetteContent[index].answer){
     index ++;
     if (index >= silhouetteContent.length){
-        document.querySelector("#main_completion").style.display = "flex"
+        document.querySelector("#main_completion").style.display = "flex",
+        Confetti()
     }
     // document.querySelector(".head").className="head"+paintings[index].pos
 

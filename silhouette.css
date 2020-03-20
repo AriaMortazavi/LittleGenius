@@ -35,95 +35,6 @@
     color: rgba(255,81,81,1);
 }
 
-/* MENU */
-#silhouette_menu {
-    position: absolute;
-    display: flex;
-    transform: translateX(-50%);
-    left: 50%;
-    width: 1000px;
-    height: 160px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 100;
-}
-
-#silhouette_Image_cont {
-    position: relative;
-    display: flex;
-    width: 800px;
-    height: 100px;
-    background-color: white;
-    border-radius: 70px;
-}
-
-#silhouette_img1 {
-    background-image: url(imgs/img1.jpg);
-    border-radius: 70px 0px 0px 70px;
-}
-#silhouette_img2 {
-    background-image: url(imgs/img2.jpg);
-}
-#silhouette_img3 {
-    background-image: url(imgs/img3.jpg);
-    border-radius: 0px 70px 70px 0px;
-}
-
-#silhouette_img1, #silhouette_img2, #silhouette_img3 {
-    position: relative;
-    width: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.silhouette_line {
-    position: relative;
-    height: 100%;
-    width: 5px;
-    background-color: rgb(155, 202, 247);
-}
-
-.silhouette_Category_Text_Box {
-    filter: drop-shadow(3px 7px 20px rgba(0, 0, 0, 0.059));
-    display: flex;
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 50px;
-    top: 80px;
-    background-color: white;
-    border-radius: 500px;
-    left: 12px;
-}
-
-#silhouette_box3 {
-    border: rgb(134, 211, 255) 3px solid;
-    filter: drop-shadow(0px 0px 10px rgba(188, 226, 252, 0.87));
-}
-
-#silhouette_textCategory1 {
-    color: rgba(171,229,95,1);
-}
-
-#silhouette_textCategory2 {
-    color: rgba(255,107,182,1);
-}
-
-#silhouette_textCategory3 {
-    color: rgb(107, 115, 235);
-}
-
-#silhouette_textCategory1, #silhouette_textCategory2, #silhouette_textCategory3 {
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-}
 
 /* QUESTION */
 #silhouette_questionBox {
@@ -136,7 +47,7 @@
     border-radius: 30px;
     transform: translateX(-50%);
     left: 50%;
-    top: 300px;
+    top: 200px;
     align-items: center;
 }
 

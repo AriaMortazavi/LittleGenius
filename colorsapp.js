@@ -51,7 +51,7 @@ function nextColorQuestion(number){
     if(number === colorsContent[index].answer){
     index ++;
     if (index >= colorsContent.length){
-        window.location.href = "completion.html";
+        document.querySelector("#main_completion").style.display = "flex"
     }
     document.querySelector("#colors_questionNum").innerText = colorsContent[index].questionNum
     document.querySelector(".colors_question_spot").innerText = colorsContent[index].question_spot
@@ -62,4 +62,7 @@ function nextColorQuestion(number){
     document.querySelector("#colors_a1_img2").innerText = colorsContent[index].a1_img2
     document.querySelector("#colors_a1_img3").innerText = colorsContent[index].a1_img3
     }
+}
+function showPage1(){
+document.querySelector("#main_colors").style.display = "flex"
 }

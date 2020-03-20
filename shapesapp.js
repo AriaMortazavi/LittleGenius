@@ -51,7 +51,7 @@ function nextshapeQuestion(number){
     if(number === shapesContent[index].answer){
     index ++;
     if (index >= shapesContent.length){
-        window.location.href = "completion.html";
+        document.querySelector("#main_completion").style.display = "flex"
     }
 
     document.querySelector("#shapes_questionNum").innerText = shapesContent[index].questionNum
@@ -64,3 +64,6 @@ function nextshapeQuestion(number){
     document.querySelector("#shapes_a1_img3").innerText = shapesContent[index].a1_img3
 }
 }
+function showPage2(){
+    document.querySelector("#main_shapes").style.display = "flex"
+    }

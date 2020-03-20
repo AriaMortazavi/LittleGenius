@@ -51,7 +51,7 @@ function nextsilhouetteQuestion(number){
     if(number === silhouetteContent[index].answer){
     index ++;
     if (index >= silhouetteContent.length){
-        window.location.href = "completion.html";
+        document.querySelector("#main_completion").style.display = "flex"
     }
     // document.querySelector(".head").className="head"+paintings[index].pos
 
@@ -64,3 +64,7 @@ function nextsilhouetteQuestion(number){
     document.querySelector("#silhouette_a1_img3").innerText = silhouetteContent[index].a1_img3
 }
 }
+
+function showPage3(){
+    document.querySelector("#main_silhouette").style.display = "flex"
+    }

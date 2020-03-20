@@ -14,6 +14,7 @@ var shapesContent = [
         a1_img1: "Put a link to the answer image 1 here",
         a1_img2: "Put a link to the answer image 2 here",
         a1_img3: "Put a link to the answer image 3 here",   
+        answer: 3,
     },
 
     {
@@ -28,12 +29,13 @@ var shapesContent = [
         a1_img1: "Put a link to the answer image 1 here",
         a1_img2: "Put a link to the answer image 2 here",
         a1_img3: "Put a link to the answer image 3 here",   
+        answer: 1,
     }
 ];
 
 //function for when the page initially loads
 function start(){
-    // document.querySelector(".head").className="head" + paintings[0].pos
+
     document.querySelector("#questionNum").innerText = shapesContent[0].questionNum
     document.querySelector(".question_spot").innerText = shapesContent[0].question_spot
     document.querySelector("#q1_img1").innerText = shapesContent[0].q1_img1
@@ -45,12 +47,13 @@ function start(){
 }
 start();
 
-function nextshapeQuestion(){
+function nextshapeQuestion(number){
+    if(number === shapesContent[index].answer){
     index ++;
     if (index >= shapesContent.length){
         window.location.href = "completion.html";
     }
-    // document.querySelector(".head").className="head"+paintings[index].pos
+
     document.querySelector("#questionNum").innerText = shapesContent[index].questionNum
     document.querySelector(".question_spot").innerText = shapesContent[index].question_spot
     document.querySelector("#q1_img1").innerText = shapesContent[index].q1_img1
@@ -59,4 +62,5 @@ function nextshapeQuestion(){
     document.querySelector("#a1_img1").innerText = shapesContent[index].a1_img1
     document.querySelector("#a1_img2").innerText = shapesContent[index].a1_img2
     document.querySelector("#a1_img3").innerText = shapesContent[index].a1_img3
+}
 }

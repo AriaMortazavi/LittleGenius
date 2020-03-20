@@ -14,6 +14,7 @@ var silhouetteContent = [
         a1_img1: "Put a link to the answer image 1 here",
         a1_img2: "Put a link to the answer image 2 here",
         a1_img3: "Put a link to the answer image 3 here",   
+        answer: 2,
     },
 
     {
@@ -28,6 +29,7 @@ var silhouetteContent = [
         a1_img1: "Put a link to the answer image 1 here",
         a1_img2: "Put a link to the answer image 2 here",
         a1_img3: "Put a link to the answer image 3 here",   
+        answer: 3,
     }
 ];
 
@@ -45,7 +47,8 @@ function start(){
 }
 start();
 
-function nextsilhouetteQuestion(){
+function nextsilhouetteQuestion(number){
+    if(number === silhouetteContent[index].answer){
     index ++;
     if (index >= silhouetteContent.length){
         window.location.href = "completion.html";
@@ -59,4 +62,5 @@ function nextsilhouetteQuestion(){
     document.querySelector("#a1_img1").innerText = silhouetteContent[index].a1_img1
     document.querySelector("#a1_img2").innerText = silhouetteContent[index].a1_img2
     document.querySelector("#a1_img3").innerText = silhouetteContent[index].a1_img3
+}
 }

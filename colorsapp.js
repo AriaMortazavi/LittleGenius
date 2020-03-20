@@ -14,6 +14,7 @@ var colorsContent = [
         a1_img1: "Put a link to the answer image 1 here",
         a1_img2: "Put a link to the answer image 2 here",
         a1_img3: "Put a link to the answer image 3 here",   
+        answer: 1,
     },
 
     {
@@ -28,6 +29,7 @@ var colorsContent = [
         a1_img1: "Put a link to the answer image 1 here",
         a1_img2: "Put a link to the answer image 2 here",
         a1_img3: "Put a link to the answer image 3 here",   
+        answer: 3,
     }
 ];
 
@@ -45,13 +47,12 @@ function start(){
 }
 start();
 
-function nextColorQuestion(){
+function nextColorQuestion(number){
+    if(number === colorsContent[index].answer){
     index ++;
     if (index >= colorsContent.length){
         window.location.href = "completion.html";
     }
-    // document.querySelector(".head").className="head"+paintings[index].pos
-
     document.querySelector("#questionNum").innerText = colorsContent[index].questionNum
     document.querySelector(".question_spot").innerText = colorsContent[index].question_spot
     document.querySelector("#q1_img1").innerText = colorsContent[index].q1_img1
@@ -60,4 +61,5 @@ function nextColorQuestion(){
     document.querySelector("#a1_img1").innerText = colorsContent[index].a1_img1
     document.querySelector("#a1_img2").innerText = colorsContent[index].a1_img2
     document.querySelector("#a1_img3").innerText = colorsContent[index].a1_img3
+    }
 }

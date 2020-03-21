@@ -5,7 +5,7 @@ var shapesContent = [
     {
         questionNum: "Question 1",
 
-        question_spot: "This is where question 1 goes",
+        question_spot: "Which shape most resembles these images?",
 
         q1_img1:"imgs/shape.q1.img1.png",
         q1_img2:"imgs/shape.q1.img2.png",
@@ -14,13 +14,13 @@ var shapesContent = [
         a1_img1: "imgs/shape.a1.img1.png",
         a1_img2: "imgs/shape.a1.img2.png",
         a1_img3: "imgs/shape.a1.img3.png",   
-        answer: 3,
+        answer: 1,
     },
 
     {
         questionNum: "Question 2",
 
-        question_spot: "This is where question 2 goes",
+        question_spot: "Which shape most resembles these images?",
 
         q1_img1: "imgs/shape.q2.img1.png",
         q1_img2:"imgs/shape.q2.img2.png",
@@ -29,24 +29,24 @@ var shapesContent = [
         a1_img1: "imgs/shape.a2.img1.png",
         a1_img2: "imgs/shape.a2.img2.png",
         a1_img3: "imgs/shape.a2.img3.png",   
-        answer: 1,
+        answer: 3,
     }
 ];
 
 //function for when the page initially loads
-function start(){
+function startShape(){
 
     document.querySelector("#shapes_questionNum").innerText = shapesContent[0].questionNum
     document.querySelector(".shapes_question_spot").innerText = shapesContent[0].question_spot
-    document.querySelector("#shapes_q1_img1").style.backgroundImage = "url ("+ shapesContent[0].q1_img1+ ")";
-    document.querySelector("#shapes_q1_img2").style.backgroundImage = "url ("+ shapesContent[0].q1_img2+ ")";
-    document.querySelector("#shapes_q1_img3").style.backgroundImage = "url ("+ shapesContent[0].q1_img3+ ")";
+    document.querySelector("#shapes_q1_img1").style.backgroundImage = "url("+ shapesContent[0].q1_img1+ ")";
+    document.querySelector("#shapes_q1_img2").style.backgroundImage = "url("+ shapesContent[0].q1_img2+ ")";
+    document.querySelector("#shapes_q1_img3").style.backgroundImage = "url("+ shapesContent[0].q1_img3+ ")";
 
-    document.querySelector("#shapes_a1_img1").style.backgroundImage= 'url ('+ shapesContent[0].a1_img1 + ')';
-    document.querySelector("#shapes_a1_img2").style.backgroundImage= "url ("+  shapesContent[0].a1_img2+ ")";
-    document.querySelector("#shapes_a1_img3").style.backgroundImage= "url ("+  shapesContent[0].a1_img3+ ")";
+    document.querySelector("#shapes_a1_img1").style.backgroundImage= 'url('+ shapesContent[0].a1_img1 + ')';
+    document.querySelector("#shapes_a1_img2").style.backgroundImage= "url("+  shapesContent[0].a1_img2+ ")";
+    document.querySelector("#shapes_a1_img3").style.backgroundImage= "url("+  shapesContent[0].a1_img3+ ")";
 }
-start();
+startShape();
 function nextshapeQuestion(number){
     if(number === shapesContent[index].answer){
     index ++;
@@ -56,13 +56,13 @@ function nextshapeQuestion(number){
     }
     document.querySelector("#shapes_questionNum").innerText = shapesContent[index].questionNum
     document.querySelector(".shapes_question_spot").innerText = shapesContent[index].question_spot
-    document.querySelector("#shapes_q1_img1").style.backgroundImage = "url ("+shapesContent[index].q1_img1 + ")";
-    document.querySelector("#shapes_q1_img2").style.backgroundImage= "url ("+ shapesContent[index].q1_img2+ ")";
-    document.querySelector("#shapes_q1_img3").style.backgroundImage= "url ("+ shapesContent[index].q1_img3+ ")";
+    document.querySelector("#shapes_q1_img1").style.backgroundImage = "url("+shapesContent[index].q1_img1 + ")";
+    document.querySelector("#shapes_q1_img2").style.backgroundImage= "url("+ shapesContent[index].q1_img2+ ")";
+    document.querySelector("#shapes_q1_img3").style.backgroundImage= "url("+ shapesContent[index].q1_img3+ ")";
 
-    document.querySelector("#shapes_a1_img1").style.backgroundImage= "url ("+ shapesContent[index].a1_img1+ ")";
-    document.querySelector("#shapes_a1_img2").style.backgroundImage = "url ("+ shapesContent[index].a1_img2+ ")";
-    document.querySelector("#shapes_a1_img3").style.backgroundImage = "url ("+shapesContent[index].a1_img3+ ")";
+    document.querySelector("#shapes_a1_img1").style.backgroundImage= "url("+ shapesContent[index].a1_img1+ ")";
+    document.querySelector("#shapes_a1_img2").style.backgroundImage = "url("+ shapesContent[index].a1_img2+ ")";
+    document.querySelector("#shapes_a1_img3").style.backgroundImage = "url("+shapesContent[index].a1_img3+ ")";
 
 }
 }

@@ -34,7 +34,7 @@ var silhouetteContent = [
 ];
 
 //function for when the page initially loads
-function start(){
+function startSilhouette(){
     // document.querySelector(".head").className="head" + paintings[0].pos
     document.querySelector("#silhouette_questionNum").innerText = silhouetteContent[0].questionNum
     document.querySelector(".silhouette_question_spot").innerText = silhouetteContent[0].question_spot
@@ -45,7 +45,7 @@ function start(){
     document.querySelector("#silhouette_a1_img2").innerText = silhouetteContent[0].a1_img2
     document.querySelector("#silhouette_a1_img3").innerText = silhouetteContent[0].a1_img3
 }
-start();
+startSilhouette();
 
 function nextsilhouetteQuestion(number){
     if(number === silhouetteContent[index].answer){

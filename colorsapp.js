@@ -34,7 +34,7 @@ var colorsContent = [
 ];
 
 //function for when the page initially loads
-function start(){
+function startColor(){
     // document.querySelector(".head").className="head" + paintings[0].pos
     document.querySelector("#colors_questionNum").innerText = colorsContent[0].questionNum
     document.querySelector(".colors_question_spot").innerText = colorsContent[0].question_spot
@@ -45,7 +45,7 @@ function start(){
     document.querySelector("#colors_a1_img2").innerText = colorsContent[0].a1_img2
     document.querySelector("#colors_a1_img3").innerText = colorsContent[0].a1_img3
 }
-start();
+startColor();
 
 function nextColorQuestion(number){
     if(number === colorsContent[index].answer){

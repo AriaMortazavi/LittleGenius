@@ -95,15 +95,15 @@
 }
 
 #shapes_q1_img1 {
-    background-image: url(imgs/q1_img1.jpg);
+    background-image: none;
 }
 
 #shapes_q1_img2 {
-    background-image: url(imgs/q1_img1.jpg);
+    background-image: none;
 }
 
 #shapes_q1_img3 {
-    background-image: url(imgs/q1_img1.jpg);
+    background-image: none;
 }
 
 .shapes_borderLine {
@@ -117,15 +117,15 @@
 }
 
 #shapes_a1_img1 {
-    background-image: url(imgs/a1_img1.jpg);
+    background-image: none;
 }
 
 #shapes_a1_img2 {
-    background-image: url(imgs/a1_img1.jpg);
+    background-image: none;
 }
 
 #shapes_a1_img3 {
-    background-image: url(imgs/a1_img1.jpg);
+    background-image: none;
 }
 
 /* all hover states */

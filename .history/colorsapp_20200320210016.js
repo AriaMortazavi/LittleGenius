@@ -5,7 +5,7 @@ var colorsContent = [
     {
         questionNum: "Question 1",
 
-        question_spot: "Based on the top 3 images, which of the bottom 3 colour combinations are correct?",
+        question_spot: "This is where question 1 goes",
         
         q1_img1:"imgs/ex1.png",
         q1_img2:"imgs/ex2.png",
@@ -18,9 +18,9 @@ var colorsContent = [
     },
 
     {
-        questionNum: "Question 2",
+        questionNum: "Which shape has a rectangle with the same color?",
 
-        question_spot: "Which of the bottom 3 shapes share a colour with one of the top 3 shapes?",
+        question_spot: "This is where question 2 goes",
 
         q1_img1:"imgs/color.q2.img1.png",
         q1_img2:"imgs/color.q2.img2.png",
@@ -29,7 +29,7 @@ var colorsContent = [
         a1_img1: "imgs/color.a2.img1.png",
         a1_img2: "imgs/color.a2.img2.png",
         a1_img3: "imgs/color.a2.img3.png",  
-        answer: 2,
+        answer: 3,
     }
 ];
 
